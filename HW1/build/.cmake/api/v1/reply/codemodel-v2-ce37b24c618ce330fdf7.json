@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "opencv",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "p1_executable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p1_executable-Release-5414c3c7f6ed1d2c6c47.json",
+					"name" : "p1_executable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p2_executable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p2_executable-Release-a0d748f4fd3a6b57c6bf.json",
+					"name" : "p2_executable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p3_executable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p3_executable-Release-294d88aaa9d9c85fb0b9.json",
+					"name" : "p3_executable",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/ren/Documents/hw/EE569/HW1/build",
+		"source" : "/Users/ren/Documents/hw/EE569/HW1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
