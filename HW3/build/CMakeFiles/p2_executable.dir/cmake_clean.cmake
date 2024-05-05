@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/ren/Documents/hw/EE569/HW3/bin/p2_executable"
-  "/Users/ren/Documents/hw/EE569/HW3/bin/p2_executable.pdb"
+  "/Users/ren/Documents/GitHub/EE569HW/HW3/bin/p2_executable"
+  "/Users/ren/Documents/GitHub/EE569HW/HW3/bin/p2_executable.pdb"
   "CMakeFiles/p2_executable.dir/p2/HomographicTrans.cpp.o"
   "CMakeFiles/p2_executable.dir/p2/HomographicTrans.cpp.o.d"
   "CMakeFiles/p2_executable.dir/p2/RWImage.cpp.o"

@@ -1,68 +1,68 @@
 [
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW1/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p1_executable.dir/p1/main.cpp.o -c /Users/ren/Documents/hw/EE569/HW1/p1/main.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW1/p1/main.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p1_executable.dir/p1/main.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW1/p1/main.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW1/p1/main.cpp",
   "output": "CMakeFiles/p1_executable.dir/p1/main.cpp.o"
 },
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW1/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p1_executable.dir/p1/Demosaic.cpp.o -c /Users/ren/Documents/hw/EE569/HW1/p1/Demosaic.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW1/p1/Demosaic.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p1_executable.dir/p1/Demosaic.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW1/p1/Demosaic.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW1/p1/Demosaic.cpp",
   "output": "CMakeFiles/p1_executable.dir/p1/Demosaic.cpp.o"
 },
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW1/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p1_executable.dir/p1/Histogram.cpp.o -c /Users/ren/Documents/hw/EE569/HW1/p1/Histogram.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW1/p1/Histogram.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p1_executable.dir/p1/Histogram.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW1/p1/Histogram.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW1/p1/Histogram.cpp",
   "output": "CMakeFiles/p1_executable.dir/p1/Histogram.cpp.o"
 },
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW1/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p1_executable.dir/p1/Clahe.cpp.o -c /Users/ren/Documents/hw/EE569/HW1/p1/Clahe.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW1/p1/Clahe.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p1_executable.dir/p1/Clahe.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW1/p1/Clahe.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW1/p1/Clahe.cpp",
   "output": "CMakeFiles/p1_executable.dir/p1/Clahe.cpp.o"
 },
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW1/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p2_executable.dir/p2/main.cpp.o -c /Users/ren/Documents/hw/EE569/HW1/p2/main.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW1/p2/main.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p2_executable.dir/p2/main.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW1/p2/main.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW1/p2/main.cpp",
   "output": "CMakeFiles/p2_executable.dir/p2/main.cpp.o"
 },
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW1/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p2_executable.dir/p2/Basic.cpp.o -c /Users/ren/Documents/hw/EE569/HW1/p2/Basic.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW1/p2/Basic.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p2_executable.dir/p2/Basic.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW1/p2/Basic.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW1/p2/Basic.cpp",
   "output": "CMakeFiles/p2_executable.dir/p2/Basic.cpp.o"
 },
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW1/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p2_executable.dir/p2/Bilateral.cpp.o -c /Users/ren/Documents/hw/EE569/HW1/p2/Bilateral.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW1/p2/Bilateral.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p2_executable.dir/p2/Bilateral.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW1/p2/Bilateral.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW1/p2/Bilateral.cpp",
   "output": "CMakeFiles/p2_executable.dir/p2/Bilateral.cpp.o"
 },
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW1/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p2_executable.dir/p2/NonLocalMeans.cpp.o -c /Users/ren/Documents/hw/EE569/HW1/p2/NonLocalMeans.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW1/p2/NonLocalMeans.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p2_executable.dir/p2/NonLocalMeans.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW1/p2/NonLocalMeans.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW1/p2/NonLocalMeans.cpp",
   "output": "CMakeFiles/p2_executable.dir/p2/NonLocalMeans.cpp.o"
 },
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW1/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p2_executable.dir/p2/ColorImage.cpp.o -c /Users/ren/Documents/hw/EE569/HW1/p2/ColorImage.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW1/p2/ColorImage.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p2_executable.dir/p2/ColorImage.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW1/p2/ColorImage.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW1/p2/ColorImage.cpp",
   "output": "CMakeFiles/p2_executable.dir/p2/ColorImage.cpp.o"
 },
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW1/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p3_executable.dir/p3/main.cpp.o -c /Users/ren/Documents/hw/EE569/HW1/p3/main.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW1/p3/main.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p3_executable.dir/p3/main.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW1/p3/main.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW1/p3/main.cpp",
   "output": "CMakeFiles/p3_executable.dir/p3/main.cpp.o"
 },
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW1/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p3_executable.dir/p3/WaterColor.cpp.o -c /Users/ren/Documents/hw/EE569/HW1/p3/WaterColor.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW1/p3/WaterColor.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p3_executable.dir/p3/WaterColor.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW1/p3/WaterColor.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW1/p3/WaterColor.cpp",
   "output": "CMakeFiles/p3_executable.dir/p3/WaterColor.cpp.o"
 }
 ]

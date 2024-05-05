@@ -10,7 +10,7 @@ int main(){
     std::string inputPath = "../images/composite.png";
 
     TextureSegmentation ts(inputPath, 512, 512,1);
-    // ts.basicMethod();
+    ts.basicMethod();
     ts.advancedMethod();
 
     return 0;

@@ -24,17 +24,17 @@ void HomographicTrans::SURF_Method(std::string outputPath){
     // Define the SURF detector
     Ptr<Feature2D> surf = SURF::create();
 
-    // 检测并计算第一张图像的关键点和描述符
+    // Detects and calculates key points and descriptors for the left image
     std::vector<KeyPoint> keypoints1;
     Mat descriptors1;
     surf->detectAndCompute(left_toy, noArray(), keypoints1, descriptors1);
 
-    // The keypoints and descriptors of the first image are detected and computed
+    // The keypoints and descriptors of the middle image are detected and computed
     std::vector<KeyPoint> keypoints2;
     Mat descriptors2;
     surf->detectAndCompute(middle_toy, noArray(), keypoints2, descriptors2);
 
-    // The keypoints and descriptors of the third image are detected and computed
+    // The keypoints and descriptors of the right image are detected and computed
     std::vector<KeyPoint> keypoints3;
     Mat descriptors3;
     surf->detectAndCompute(right_toy, noArray(), keypoints3, descriptors3);
@@ -82,6 +82,7 @@ void HomographicTrans::SURF_Method(std::string outputPath){
     std::vector<Point2f> middle2Points(rmMatchNum);
 
 
+    // Sets the position of pixel of three graphs in the merged graph
     for (int i = 0; i < lmMatchNum; i++) {
         // Get the index of the current match
         int queryIdx1 = good_matches1[i].queryIdx;
@@ -108,9 +109,11 @@ void HomographicTrans::SURF_Method(std::string outputPath){
         middle2Points[i].y += height / 2;
     }
 
+    // calculate two sets of transformation matrices according to the matching points
     cv::Mat H1 = cv::findHomography(leftPoints, middle1Points, cv::RANSAC);
     cv::Mat H2 = cv::findHomography(rightPoints, middle2Points, cv::RANSAC);
 
+    // copy three images to new images which position is in merge graph  
     cv::Mat new_left_toy = cv::Mat::zeros(2 * height, 3 * width, CV_8UC3); 
     cv::Mat roi1 = new_left_toy(cv::Rect(width / 2, height / 2, width, height)); 
     left_toy.copyTo(roi1);
@@ -123,10 +126,12 @@ void HomographicTrans::SURF_Method(std::string outputPath){
     cv::Mat roi3 = new_right_toy(cv::Rect(width * 3 / 2, height / 2, width, height)); 
     right_toy.copyTo(roi3);
 
+    // transform image
     cv::Mat resMat1,resMat2;
     warpPerspective(new_left_toy, resMat1, H1, Size(3 * width, 2 * height));
     warpPerspective(new_right_toy, resMat2, H2, Size(3 * width, 2 * height));
 
+    // combine three image
     std::vector<std::vector<std::vector<unsigned char> > > result(height * 2, std::vector<std::vector<unsigned char> >(width * 3, std::vector<unsigned char>(3, 0)));
 
     for(int i = 0; i < 2 * height; i++){

@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ren/Documents/hw/EE569/HW3
+CMAKE_SOURCE_DIR = /Users/ren/Documents/GitHub/EE569HW/HW3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ren/Documents/hw/EE569/HW3/build
+CMAKE_BINARY_DIR = /Users/ren/Documents/GitHub/EE569HW/HW3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ren/Documents/hw/EE569/HW3/build/CMakeFiles /Users/ren/Documents/hw/EE569/HW3/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles /Users/ren/Documents/GitHub/EE569HW/HW3/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ren/Documents/hw/EE569/HW3/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,6 +117,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named p1_executable
+
+# Build rule for target.
+p1_executable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p1_executable
+.PHONY : p1_executable
+
+# fast build rule for target.
+p1_executable/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_executable.dir/build.make CMakeFiles/p1_executable.dir/build
+.PHONY : p1_executable/fast
+
+#=============================================================================
+# Target rules for targets named p2_executable
+
+# Build rule for target.
+p2_executable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p2_executable
+.PHONY : p2_executable
+
+# fast build rule for target.
+p2_executable/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2_executable.dir/build.make CMakeFiles/p2_executable.dir/build
+.PHONY : p2_executable/fast
+
+#=============================================================================
 # Target rules for targets named p3_executable
 
 # Build rule for target.
@@ -128,6 +154,150 @@ p3_executable: cmake_check_build_system
 p3_executable/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p3_executable.dir/build.make CMakeFiles/p3_executable.dir/build
 .PHONY : p3_executable/fast
+
+p1/ImageTransform.o: p1/ImageTransform.cpp.o
+.PHONY : p1/ImageTransform.o
+
+# target to build an object file
+p1/ImageTransform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_executable.dir/build.make CMakeFiles/p1_executable.dir/p1/ImageTransform.cpp.o
+.PHONY : p1/ImageTransform.cpp.o
+
+p1/ImageTransform.i: p1/ImageTransform.cpp.i
+.PHONY : p1/ImageTransform.i
+
+# target to preprocess a source file
+p1/ImageTransform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_executable.dir/build.make CMakeFiles/p1_executable.dir/p1/ImageTransform.cpp.i
+.PHONY : p1/ImageTransform.cpp.i
+
+p1/ImageTransform.s: p1/ImageTransform.cpp.s
+.PHONY : p1/ImageTransform.s
+
+# target to generate assembly for a file
+p1/ImageTransform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_executable.dir/build.make CMakeFiles/p1_executable.dir/p1/ImageTransform.cpp.s
+.PHONY : p1/ImageTransform.cpp.s
+
+p1/RWImage.o: p1/RWImage.cpp.o
+.PHONY : p1/RWImage.o
+
+# target to build an object file
+p1/RWImage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_executable.dir/build.make CMakeFiles/p1_executable.dir/p1/RWImage.cpp.o
+.PHONY : p1/RWImage.cpp.o
+
+p1/RWImage.i: p1/RWImage.cpp.i
+.PHONY : p1/RWImage.i
+
+# target to preprocess a source file
+p1/RWImage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_executable.dir/build.make CMakeFiles/p1_executable.dir/p1/RWImage.cpp.i
+.PHONY : p1/RWImage.cpp.i
+
+p1/RWImage.s: p1/RWImage.cpp.s
+.PHONY : p1/RWImage.s
+
+# target to generate assembly for a file
+p1/RWImage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_executable.dir/build.make CMakeFiles/p1_executable.dir/p1/RWImage.cpp.s
+.PHONY : p1/RWImage.cpp.s
+
+p1/main.o: p1/main.cpp.o
+.PHONY : p1/main.o
+
+# target to build an object file
+p1/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_executable.dir/build.make CMakeFiles/p1_executable.dir/p1/main.cpp.o
+.PHONY : p1/main.cpp.o
+
+p1/main.i: p1/main.cpp.i
+.PHONY : p1/main.i
+
+# target to preprocess a source file
+p1/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_executable.dir/build.make CMakeFiles/p1_executable.dir/p1/main.cpp.i
+.PHONY : p1/main.cpp.i
+
+p1/main.s: p1/main.cpp.s
+.PHONY : p1/main.s
+
+# target to generate assembly for a file
+p1/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_executable.dir/build.make CMakeFiles/p1_executable.dir/p1/main.cpp.s
+.PHONY : p1/main.cpp.s
+
+p2/HomographicTrans.o: p2/HomographicTrans.cpp.o
+.PHONY : p2/HomographicTrans.o
+
+# target to build an object file
+p2/HomographicTrans.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2_executable.dir/build.make CMakeFiles/p2_executable.dir/p2/HomographicTrans.cpp.o
+.PHONY : p2/HomographicTrans.cpp.o
+
+p2/HomographicTrans.i: p2/HomographicTrans.cpp.i
+.PHONY : p2/HomographicTrans.i
+
+# target to preprocess a source file
+p2/HomographicTrans.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2_executable.dir/build.make CMakeFiles/p2_executable.dir/p2/HomographicTrans.cpp.i
+.PHONY : p2/HomographicTrans.cpp.i
+
+p2/HomographicTrans.s: p2/HomographicTrans.cpp.s
+.PHONY : p2/HomographicTrans.s
+
+# target to generate assembly for a file
+p2/HomographicTrans.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2_executable.dir/build.make CMakeFiles/p2_executable.dir/p2/HomographicTrans.cpp.s
+.PHONY : p2/HomographicTrans.cpp.s
+
+p2/RWImage.o: p2/RWImage.cpp.o
+.PHONY : p2/RWImage.o
+
+# target to build an object file
+p2/RWImage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2_executable.dir/build.make CMakeFiles/p2_executable.dir/p2/RWImage.cpp.o
+.PHONY : p2/RWImage.cpp.o
+
+p2/RWImage.i: p2/RWImage.cpp.i
+.PHONY : p2/RWImage.i
+
+# target to preprocess a source file
+p2/RWImage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2_executable.dir/build.make CMakeFiles/p2_executable.dir/p2/RWImage.cpp.i
+.PHONY : p2/RWImage.cpp.i
+
+p2/RWImage.s: p2/RWImage.cpp.s
+.PHONY : p2/RWImage.s
+
+# target to generate assembly for a file
+p2/RWImage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2_executable.dir/build.make CMakeFiles/p2_executable.dir/p2/RWImage.cpp.s
+.PHONY : p2/RWImage.cpp.s
+
+p2/main.o: p2/main.cpp.o
+.PHONY : p2/main.o
+
+# target to build an object file
+p2/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2_executable.dir/build.make CMakeFiles/p2_executable.dir/p2/main.cpp.o
+.PHONY : p2/main.cpp.o
+
+p2/main.i: p2/main.cpp.i
+.PHONY : p2/main.i
+
+# target to preprocess a source file
+p2/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2_executable.dir/build.make CMakeFiles/p2_executable.dir/p2/main.cpp.i
+.PHONY : p2/main.cpp.i
+
+p2/main.s: p2/main.cpp.s
+.PHONY : p2/main.s
+
+# target to generate assembly for a file
+p2/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2_executable.dir/build.make CMakeFiles/p2_executable.dir/p2/main.cpp.s
+.PHONY : p2/main.cpp.s
 
 p3/MorphologyProc.o: p3/MorphologyProc.cpp.o
 .PHONY : p3/MorphologyProc.o
@@ -209,7 +379,27 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... p1_executable"
+	@echo "... p2_executable"
 	@echo "... p3_executable"
+	@echo "... p1/ImageTransform.o"
+	@echo "... p1/ImageTransform.i"
+	@echo "... p1/ImageTransform.s"
+	@echo "... p1/RWImage.o"
+	@echo "... p1/RWImage.i"
+	@echo "... p1/RWImage.s"
+	@echo "... p1/main.o"
+	@echo "... p1/main.i"
+	@echo "... p1/main.s"
+	@echo "... p2/HomographicTrans.o"
+	@echo "... p2/HomographicTrans.i"
+	@echo "... p2/HomographicTrans.s"
+	@echo "... p2/RWImage.o"
+	@echo "... p2/RWImage.i"
+	@echo "... p2/RWImage.s"
+	@echo "... p2/main.o"
+	@echo "... p2/main.i"
+	@echo "... p2/main.s"
 	@echo "... p3/MorphologyProc.o"
 	@echo "... p3/MorphologyProc.i"
 	@echo "... p3/MorphologyProc.s"

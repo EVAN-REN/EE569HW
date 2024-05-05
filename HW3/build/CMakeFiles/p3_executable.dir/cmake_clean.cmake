@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/ren/Documents/hw/EE569/HW3/bin/p3_executable"
-  "/Users/ren/Documents/hw/EE569/HW3/bin/p3_executable.pdb"
+  "/Users/ren/Documents/GitHub/EE569HW/HW3/bin/p3_executable"
+  "/Users/ren/Documents/GitHub/EE569HW/HW3/bin/p3_executable.pdb"
   "CMakeFiles/p3_executable.dir/p3/MorphologyProc.cpp.o"
   "CMakeFiles/p3_executable.dir/p3/MorphologyProc.cpp.o.d"
   "CMakeFiles/p3_executable.dir/p3/RWImage.cpp.o"

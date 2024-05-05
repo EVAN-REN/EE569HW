@@ -54,15 +54,17 @@ RM = /opt/homebrew/Cellar/cmake/3.28.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ren/Documents/hw/EE569/HW3
+CMAKE_SOURCE_DIR = /Users/ren/Documents/GitHub/EE569HW/HW3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ren/Documents/hw/EE569/HW3/build
+CMAKE_BINARY_DIR = /Users/ren/Documents/GitHub/EE569HW/HW3/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/p1_executable.dir/all
+all: CMakeFiles/p2_executable.dir/all
 all: CMakeFiles/p3_executable.dir/all
 .PHONY : all
 
@@ -71,8 +73,62 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/p1_executable.dir/clean
+clean: CMakeFiles/p2_executable.dir/clean
 clean: CMakeFiles/p3_executable.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/p1_executable.dir
+
+# All Build rule for target.
+CMakeFiles/p1_executable.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_executable.dir/build.make CMakeFiles/p1_executable.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_executable.dir/build.make CMakeFiles/p1_executable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles --progress-num=1,2,3,4 "Built target p1_executable"
+.PHONY : CMakeFiles/p1_executable.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/p1_executable.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/p1_executable.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles 0
+.PHONY : CMakeFiles/p1_executable.dir/rule
+
+# Convenience name for target.
+p1_executable: CMakeFiles/p1_executable.dir/rule
+.PHONY : p1_executable
+
+# clean rule for target.
+CMakeFiles/p1_executable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_executable.dir/build.make CMakeFiles/p1_executable.dir/clean
+.PHONY : CMakeFiles/p1_executable.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/p2_executable.dir
+
+# All Build rule for target.
+CMakeFiles/p2_executable.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2_executable.dir/build.make CMakeFiles/p2_executable.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2_executable.dir/build.make CMakeFiles/p2_executable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles --progress-num=5,6,7,8 "Built target p2_executable"
+.PHONY : CMakeFiles/p2_executable.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/p2_executable.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/p2_executable.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles 0
+.PHONY : CMakeFiles/p2_executable.dir/rule
+
+# Convenience name for target.
+p2_executable: CMakeFiles/p2_executable.dir/rule
+.PHONY : p2_executable
+
+# clean rule for target.
+CMakeFiles/p2_executable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2_executable.dir/build.make CMakeFiles/p2_executable.dir/clean
+.PHONY : CMakeFiles/p2_executable.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/p3_executable.dir
@@ -81,14 +137,14 @@ clean: CMakeFiles/p3_executable.dir/clean
 CMakeFiles/p3_executable.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p3_executable.dir/build.make CMakeFiles/p3_executable.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p3_executable.dir/build.make CMakeFiles/p3_executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ren/Documents/hw/EE569/HW3/build/CMakeFiles --progress-num=1,2,3,4 "Built target p3_executable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles --progress-num=9,10,11,12 "Built target p3_executable"
 .PHONY : CMakeFiles/p3_executable.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/p3_executable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ren/Documents/hw/EE569/HW3/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/p3_executable.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ren/Documents/hw/EE569/HW3/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles 0
 .PHONY : CMakeFiles/p3_executable.dir/rule
 
 # Convenience name for target.

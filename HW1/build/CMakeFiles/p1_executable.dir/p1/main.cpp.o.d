@@ -1,6 +1,6 @@
 CMakeFiles/p1_executable.dir/p1/main.cpp.o: \
-  /Users/ren/Documents/hw/EE569/HW1/p1/main.cpp \
-  /Users/ren/Documents/hw/EE569/HW1/p1/Demosaic.h \
+  /Users/ren/Documents/GitHub/EE569HW/HW1/p1/main.cpp \
+  /Users/ren/Documents/GitHub/EE569HW/HW1/p1/Demosaic.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config_site \
@@ -732,8 +732,8 @@ CMakeFiles/p1_executable.dir/p1/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/ren/Documents/hw/EE569/HW1/p1/Histogram.h \
-  /Users/ren/Documents/hw/EE569/HW1/p1/Clahe.h \
+  /Users/ren/Documents/GitHub/EE569HW/HW1/p1/Histogram.h \
+  /Users/ren/Documents/GitHub/EE569HW/HW1/p1/Clahe.h \
   /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4/opencv2/opencv.hpp \
   /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4/opencv2/opencv_modules.hpp \
   /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4/opencv2/core.hpp \

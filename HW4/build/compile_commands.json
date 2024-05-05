@@ -1,20 +1,20 @@
 [
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW4/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p3_executable.dir/p3/main.cpp.o -c /Users/ren/Documents/hw/EE569/HW4/p3/main.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW4/p3/main.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW4/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p3_executable.dir/p3/main.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW4/p3/main.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW4/p3/main.cpp",
   "output": "CMakeFiles/p3_executable.dir/p3/main.cpp.o"
 },
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW4/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p3_executable.dir/p3/ImageMatching.cpp.o -c /Users/ren/Documents/hw/EE569/HW4/p3/ImageMatching.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW4/p3/ImageMatching.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW4/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p3_executable.dir/p3/ImageMatching.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW4/p3/ImageMatching.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW4/p3/ImageMatching.cpp",
   "output": "CMakeFiles/p3_executable.dir/p3/ImageMatching.cpp.o"
 },
 {
-  "directory": "/Users/ren/Documents/hw/EE569/HW4/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p3_executable.dir/p3/RWImage.cpp.o -c /Users/ren/Documents/hw/EE569/HW4/p3/RWImage.cpp",
-  "file": "/Users/ren/Documents/hw/EE569/HW4/p3/RWImage.cpp",
+  "directory": "/Users/ren/Documents/GitHub/EE569HW/HW4/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/p3_executable.dir/p3/RWImage.cpp.o -c /Users/ren/Documents/GitHub/EE569HW/HW4/p3/RWImage.cpp",
+  "file": "/Users/ren/Documents/GitHub/EE569HW/HW4/p3/RWImage.cpp",
   "output": "CMakeFiles/p3_executable.dir/p3/RWImage.cpp.o"
 }
 ]

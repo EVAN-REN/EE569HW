@@ -1,6 +1,6 @@
 CMakeFiles/p3_executable.dir/p3/ImageMatching.cpp.o: \
-  /Users/ren/Documents/hw/EE569/HW4/p3/ImageMatching.cpp \
-  /Users/ren/Documents/hw/EE569/HW4/p3/ImageMatching.h \
+  /Users/ren/Documents/GitHub/EE569HW/HW4/p3/ImageMatching.cpp \
+  /Users/ren/Documents/GitHub/EE569HW/HW4/p3/ImageMatching.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config_site \
@@ -852,6 +852,6 @@ CMakeFiles/p3_executable.dir/p3/ImageMatching.cpp.o: \
   /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4/opencv2/video.hpp \
   /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4/opencv2/video/tracking.hpp \
   /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4/opencv2/video/background_segm.hpp \
-  /Users/ren/Documents/hw/EE569/HW4/p3/RWImage.h \
+  /Users/ren/Documents/GitHub/EE569HW/HW4/p3/RWImage.h \
   /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4/opencv2/xfeatures2d.hpp \
   /opt/homebrew/Cellar/opencv/4.9.0_1/include/opencv4/opencv2/xfeatures2d/nonfree.hpp

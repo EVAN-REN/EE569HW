@@ -30,9 +30,11 @@ void ImageTransform::ForwardAddressMapping(std::string outputPath){
     RWImage rwi(height, width);
 
     Eigen::Matrix<double, 2, 6> affineMatrix_left, affineMatrix_right, affineMatrix_top, affineMatrix_down;
-    int h = height - 1;
-    int w = width - 1;
+    double h = height - 1;
+    double w = width - 1;
 
+    // calculate four part affine matrix
+    // get six pairs of key points
     double srcPoints_x[6] = {0, h / 2, h, h / 4, h * 3 / 4, h / 2};
     double srcPoints_y[6] = {0, 0, 0, w / 4, w / 4, w / 2};
     double dstPoints_x[6] = {0, h / 2, h, h / 4, h * 3 / 4, h / 2};
@@ -119,8 +121,10 @@ void ImageTransform::ForwardAddressMapping(std::string outputPath){
 
 
     std::vector<std::vector<std::vector<unsigned char> > > resultImage(height, std::vector<std::vector<unsigned char> >(width, std::vector<unsigned char>(3, 0)));
+    // iterate all pixels
     for(int i = 0; i < height; i++){
         for(int j = 0; j < width; j++){
+            // belong to which part
             if(i > j && j < (h - i)){
                 Eigen::Matrix<double, 6, 1> op;
                 op.row(0) << 1;
@@ -129,6 +133,7 @@ void ImageTransform::ForwardAddressMapping(std::string outputPath){
                 op.row(3) << (i * i);
                 op.row(4) << (i * j);
                 op.row(5) << (j * j);
+                // calculate mapping position
                 Eigen::Matrix<double, 2, 1> rp = affineMatrix_left * op;
                 int x = round(rp(0,0));
                 int y = round(rp(1,0));
@@ -194,9 +199,11 @@ void ImageTransform::InverseAddressMapping(std::string outputPath){
     RWImage rwi(height, width);
 
     Eigen::Matrix<double, 2, 6> affineMatrix_left, affineMatrix_right, affineMatrix_top, affineMatrix_down;
-    int h = height - 1;
-    int w = width - 1;
+    double h = height - 1;
+    double w = width - 1;
 
+    // calculate four part affine matrix
+    // get six pairs of key points
     double dstPoints_x[6] = {0, h / 2, h, h / 4, h * 3 / 4, h / 2};
     double dstPoints_y[6] = {0, 0, 0, w / 4, w / 4, w / 2};
     double srcPoints_x[6] = {0, h / 2, h, h / 4, h * 3 / 4, h / 2};
@@ -377,9 +384,11 @@ void ImageTransform::ReverseSpatialWarping(std::string outputPath){
     RWImage rwi(height, width);
 
     Eigen::Matrix<double, 2, 6> affineMatrix_left, affineMatrix_right, affineMatrix_top, affineMatrix_down;
-    int h = height - 1;
-    int w = width - 1;
+    double h = height - 1;
+    double w = width - 1;
 
+    // calculate four part affine matrix
+    // get six pairs of key points
     double srcPoints_x[6] = {0, h / 2, h, h / 4, h * 3 / 4, h / 2};
     double srcPoints_y[6] = {0, 0, 0, w / 4, w / 4, w / 2};
     double dstPoints_x[6] = {0, h / 2, h, h / 4, h * 3 / 4, h / 2};

@@ -1,6 +1,6 @@
 CMakeFiles/p3_executable.dir/p3/RWImage.cpp.o: \
-  /Users/ren/Documents/hw/EE569/HW3/p3/RWImage.cpp \
-  /Users/ren/Documents/hw/EE569/HW3/p3/RWImage.h \
+  /Users/ren/Documents/GitHub/EE569HW/HW3/p3/RWImage.cpp \
+  /Users/ren/Documents/GitHub/EE569HW/HW3/p3/RWImage.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config_site \

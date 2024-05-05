@@ -1,3 +1,5 @@
-/Users/ren/Documents/hw/EE569/HW3/build/CMakeFiles/p3_executable.dir
-/Users/ren/Documents/hw/EE569/HW3/build/CMakeFiles/edit_cache.dir
-/Users/ren/Documents/hw/EE569/HW3/build/CMakeFiles/rebuild_cache.dir
+/Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles/p1_executable.dir
+/Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles/p2_executable.dir
+/Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles/p3_executable.dir
+/Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles/edit_cache.dir
+/Users/ren/Documents/GitHub/EE569HW/HW3/build/CMakeFiles/rebuild_cache.dir

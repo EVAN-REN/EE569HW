@@ -7,13 +7,13 @@
 using namespace std;
 
 int main(){
-    std::string inputPath = "/Users/ren/Documents/hw/EE569/HW4/";
+    std::string inputPath = "/Users/ren/Documents/GitHub/EE569HW/HW4/";
 
     ImageMatching im(inputPath, 180, 270, 3);
-    // im.extract_SIFT_Features(0,2);
-    // im.extract_SIFT_Features(2,1);
-    // im.extract_SIFT_Features(3,2);
-    // im.extract_SIFT_Features(0,3);
+    im.extract_SIFT_Features(0,2);
+    im.extract_SIFT_Features(2,1);
+    im.extract_SIFT_Features(3,2);
+    im.extract_SIFT_Features(0,3);
     im.bagOfWords();
     
 

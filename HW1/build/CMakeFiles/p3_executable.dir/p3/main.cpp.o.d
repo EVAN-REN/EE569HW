@@ -1,6 +1,6 @@
 CMakeFiles/p3_executable.dir/p3/main.cpp.o: \
-  /Users/ren/Documents/hw/EE569/HW1/p3/main.cpp \
-  /Users/ren/Documents/hw/EE569/HW1/p3/WaterColor.h \
+  /Users/ren/Documents/GitHub/EE569HW/HW1/p3/main.cpp \
+  /Users/ren/Documents/GitHub/EE569HW/HW1/p3/WaterColor.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config_site \

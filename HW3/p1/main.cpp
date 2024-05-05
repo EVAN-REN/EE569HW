@@ -7,7 +7,7 @@
 using namespace std;
 
 int main(){
-    std::string outputPath = "/Users/ren/Documents/hw/EE569/HW3/";
+    std::string outputPath = "/Users/ren/Documents/GitHub/EE569HW/HW3/";
     std::string dogPath = "../images/dog.raw";
     std::string catPath = "../images/cat.raw";
 

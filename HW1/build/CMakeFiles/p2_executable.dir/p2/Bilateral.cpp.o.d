@@ -1,6 +1,6 @@
 CMakeFiles/p2_executable.dir/p2/Bilateral.cpp.o: \
-  /Users/ren/Documents/hw/EE569/HW1/p2/Bilateral.cpp \
-  /Users/ren/Documents/hw/EE569/HW1/p2/Bilateral.h \
+  /Users/ren/Documents/GitHub/EE569HW/HW1/p2/Bilateral.cpp \
+  /Users/ren/Documents/GitHub/EE569HW/HW1/p2/Bilateral.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config_site \

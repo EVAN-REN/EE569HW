@@ -1,6 +1,6 @@
 CMakeFiles/p3_executable.dir/p3/ErrorDiffusion.cpp.o: \
-  /Users/ren/Documents/hw/EE569/HW2/p3/ErrorDiffusion.cpp \
-  /Users/ren/Documents/hw/EE569/HW2/p3/ErrorDiffusion.h \
+  /Users/ren/Documents/GitHub/EE569HW/HW2/p3/ErrorDiffusion.cpp \
+  /Users/ren/Documents/GitHub/EE569HW/HW2/p3/ErrorDiffusion.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config_site \
@@ -732,7 +732,7 @@ CMakeFiles/p3_executable.dir/p3/ErrorDiffusion.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/ren/Documents/hw/EE569/HW2/p3/RWImage.h \
+  /Users/ren/Documents/GitHub/EE569HW/HW2/p3/RWImage.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/random \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \

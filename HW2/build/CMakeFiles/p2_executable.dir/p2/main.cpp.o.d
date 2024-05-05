@@ -1,6 +1,6 @@
 CMakeFiles/p2_executable.dir/p2/main.cpp.o: \
-  /Users/ren/Documents/hw/EE569/HW2/p2/main.cpp \
-  /Users/ren/Documents/hw/EE569/HW2/p2/HalfToned.h \
+  /Users/ren/Documents/GitHub/EE569HW/HW2/p2/main.cpp \
+  /Users/ren/Documents/GitHub/EE569HW/HW2/p2/HalfToned.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config_site \

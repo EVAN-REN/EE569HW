@@ -7,7 +7,7 @@
 using namespace std;
 
 int main(){
-    std::string outputPath = "/Users/ren/Documents/hw/EE569/";
+    std::string outputPath = "/Users/ren/Documents/GitHub/EE569HW/";
     std::string rPath = "../images/Flower.raw"; 
     std::string rPath_noise = "../images/Flower_noisy.raw"; 
     WaterColor wc(512, 768, 3);

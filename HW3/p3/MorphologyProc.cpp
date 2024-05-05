@@ -10,6 +10,7 @@ MorphologyProc::MorphologyProc(std::string path, int h, int w, int b):height(h),
 
 bool MorphologyProc::isConditionalPatternMatch(int x, int y, int type){
     int patterns_thin[46] = {
+        // Record in binary form
         0b010011000, 0b010110000, 0b000110010, 0b000011010,
         0b001011001, 0b111010000, 0b100110100, 0b000010111,
         0b110011000, 0b010011001, 0b011110000, 0b001011010,
@@ -146,10 +147,12 @@ void MorphologyProc::basic_morphological_process(std::string outputPath){
     binarize();
     zero_padding();
     int count = 1;
+    // record the middle result
     int iteration = 20;
     while(count != 0){
         count = 0;
         std::vector<std::vector<unsigned char> >  M(height + 2, std::vector<unsigned char>(width + 2, 0));
+        // if conditional pattern match
         for(int i = 1; i <= height; i++){
             for(int j = 1; j <= width; j++){
                 if(isConditionalPatternMatch(i,j,0)){
@@ -157,6 +160,7 @@ void MorphologyProc::basic_morphological_process(std::string outputPath){
                 }
             }
         }
+        // if unconditional pattern match
         for(int i = 1; i <= height; i++){
             for(int j = 1; j <= width; j++){
                 if(M[i][j] == 1){

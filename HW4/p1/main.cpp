@@ -7,12 +7,12 @@
 using namespace std;
 
 int main(){
-    std::string outputPath = "/Users/ren/Documents/hw/EE569/HW4/";
+    std::string outputPath = "/Users/ren/Documents/GitHub/EE569HW/HW4/";
     std::string inputPath = "../";
 
     TextureAnalysis ta(inputPath, 128, 128,1);
-    // ta.nearestNeighborRuleClassifier();
-    // ta.K_meansClassifier();
+    ta.nearestNeighborRuleClassifier();
+    ta.K_meansClassifier();
     ta.SVMaClassifier();
     
     return 0;

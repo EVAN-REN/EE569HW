@@ -7,11 +7,12 @@
 using namespace std;
 
 int main(){
-    std::string outputPath = "/Users/ren/Documents/hw/EE569/HW3/";
+    std::string outputPath = "/Users/ren/Documents/GitHub/EE569HW/HW3/";
     std::string FlowerPath = "../images/flower.raw";
     std::string JarPath = "../images/jar.raw"; 
     std::string SpringPath = "../images/spring.raw"; 
     
+    // shrinking image (20th and final)
     MorphologyProc mp1(FlowerPath, 247, 247, 1);
     std::string FlowerThinPath = outputPath + "p3/resultImage/flower_thin_";
     mp1.basic_morphological_process(FlowerThinPath);
@@ -24,6 +25,7 @@ int main(){
     std::string SpringThinPath = outputPath + "p3/resultImage/spring_thin_";
     mp3.basic_morphological_process(SpringThinPath);
 
+    // shape detect
     std::string BoardPath = "../images/board.raw";
     MorphologyProc mp4(BoardPath, 768, 768, 1);
     std::string BoardOutputPath1 = outputPath + "p3/resultImage/board_1.raw";

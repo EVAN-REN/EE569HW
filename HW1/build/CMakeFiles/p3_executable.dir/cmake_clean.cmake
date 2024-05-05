@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/ren/Documents/hw/EE569/HW1/bin/p3_executable"
-  "/Users/ren/Documents/hw/EE569/HW1/bin/p3_executable.pdb"
+  "/Users/ren/Documents/GitHub/EE569HW/HW1/bin/p3_executable"
+  "/Users/ren/Documents/GitHub/EE569HW/HW1/bin/p3_executable.pdb"
   "CMakeFiles/p3_executable.dir/p3/WaterColor.cpp.o"
   "CMakeFiles/p3_executable.dir/p3/WaterColor.cpp.o.d"
   "CMakeFiles/p3_executable.dir/p3/main.cpp.o"

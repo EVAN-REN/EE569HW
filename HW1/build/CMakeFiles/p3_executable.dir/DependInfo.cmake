@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/ren/Documents/hw/EE569/HW1/p3/WaterColor.cpp" "CMakeFiles/p3_executable.dir/p3/WaterColor.cpp.o" "gcc" "CMakeFiles/p3_executable.dir/p3/WaterColor.cpp.o.d"
-  "/Users/ren/Documents/hw/EE569/HW1/p3/main.cpp" "CMakeFiles/p3_executable.dir/p3/main.cpp.o" "gcc" "CMakeFiles/p3_executable.dir/p3/main.cpp.o.d"
+  "/Users/ren/Documents/GitHub/EE569HW/HW1/p3/WaterColor.cpp" "CMakeFiles/p3_executable.dir/p3/WaterColor.cpp.o" "gcc" "CMakeFiles/p3_executable.dir/p3/WaterColor.cpp.o.d"
+  "/Users/ren/Documents/GitHub/EE569HW/HW1/p3/main.cpp" "CMakeFiles/p3_executable.dir/p3/main.cpp.o" "gcc" "CMakeFiles/p3_executable.dir/p3/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -202,6 +202,7 @@ void ErrorDiffusion::MBVQBasedED(std::string outputPath){
                 }
                 std::vector<int> cRGB = getPointRGB(cp);
 
+                // error diffusion
                 for(int k = 0; k < 3; k++){
                     int error = result[i][j][k] - cRGB[k];
                     result[i][j][k] = cRGB[k];

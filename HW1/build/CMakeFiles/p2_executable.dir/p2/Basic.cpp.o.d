@@ -1,6 +1,6 @@
 CMakeFiles/p2_executable.dir/p2/Basic.cpp.o: \
-  /Users/ren/Documents/hw/EE569/HW1/p2/Basic.cpp \
-  /Users/ren/Documents/hw/EE569/HW1/p2/Basic.h \
+  /Users/ren/Documents/GitHub/EE569HW/HW1/p2/Basic.cpp \
+  /Users/ren/Documents/GitHub/EE569HW/HW1/p2/Basic.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config_site \

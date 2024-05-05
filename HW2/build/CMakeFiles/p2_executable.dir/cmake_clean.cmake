@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/ren/Documents/hw/EE569/HW2/bin/p2_executable"
-  "/Users/ren/Documents/hw/EE569/HW2/bin/p2_executable.pdb"
+  "/Users/ren/Documents/GitHub/EE569HW/HW2/bin/p2_executable"
+  "/Users/ren/Documents/GitHub/EE569HW/HW2/bin/p2_executable.pdb"
   "CMakeFiles/p2_executable.dir/p2/HalfToned.cpp.o"
   "CMakeFiles/p2_executable.dir/p2/HalfToned.cpp.o.d"
   "CMakeFiles/p2_executable.dir/p2/RWImage.cpp.o"
